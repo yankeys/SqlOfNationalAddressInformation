@@ -1,4 +1,3 @@
-```sql
 CREATE TABLE `area` (
   `id` int(10) unsigned NOT NULL,
   `pid` int(10) unsigned DEFAULT NULL,
@@ -14,4 +13,3 @@ CREATE TABLE `area` (
   KEY `area_name_index` (`name`),
   KEY `area_level_index` (`level`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
